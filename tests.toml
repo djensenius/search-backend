@@ -1,0 +1,13 @@
+[package.metadata.docs.rs]
+all-features = true
+
+[[bin]]
+name = "search-backend"
+path = "src/main.rs"
+
+[lib]
+name = "search_engine_backend"
+path = "src/lib.rs"
+
+[dev-dependencies]
+tokio-test = "0.4"
