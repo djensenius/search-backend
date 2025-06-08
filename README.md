@@ -1,3 +1,10 @@
+[![Lint](https://github.com/djensenius/search-backend/actions/workflows/lint.yml/badge.svg)](https://github.com/djensenius/search-backend/actions/workflows/lint.yml)
+[![Test](https://github.com/djensenius/search-backend/actions/workflows/test.yml/badge.svg)](https://github.com/djensenius/search-backend/actions/workflows/test.yml)
+[![Build](https://github.com/djensenius/search-backend/actions/workflows/build.yml/badge.svg)](https://github.com/djensenius/search-backend/actions/workflows/build.yml)
+[![Documentation](https://github.com/djensenius/search-backend/actions/workflows/rustdoc.yml/badge.svg)](https://github.com/djensenius/search-backend/actions/workflows/rustdoc.yml)
+
+[![Deploy](https://github.com/djensenius/search-backend/actions/workflows/main_dachshund-api.yml/badge.svg)](https://github.com/djensenius/search-backend/actions/workflows/main_dachshund-api.yml)
+
 # Search Engine Backend
 
 A search engine backend built in Rust that uses Azure Cognitive Search and CosmosDB for indexing and storing web content. This application can crawl websites, index their content, and provide search capabilities.
@@ -51,7 +58,7 @@ The application consists of several main components:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/david-workshops/search-engine-backend.git
+git clone https://github.com/djensenius/search-backend.git
 cd search-engine-backend
 ```
 
@@ -383,8 +390,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 The Rust API documentation is automatically generated and deployed to GitHub Pages:
 
-- **Live Documentation**: [https://david-workshops.github.io/search-engine-backend/](https://david-workshops.github.io/search-engine-backend/)
-- **GitHub Pages Branch**: [gh-pages](https://github.com/david-workshops/search-engine-backend/tree/gh-pages)
+- **Live Documentation**: [https://djensenius.github.io/search-backend/search_engine_backend/](https://djensenius.github.io/search-backend/search_engine_backend/)
 
 The documentation is automatically updated when changes are pushed to the `main` branch via GitHub Actions.
 

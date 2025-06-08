@@ -39,7 +39,7 @@ When changes are pushed to the main branch:
 
 3. **GitHub Pages Deployment**
    - Serves content from gh-pages branch root directory
-   - Available at: https://david-workshops.github.io/search-engine-backend/
+   - Available at: https://djensenius.github.io/search-backend/search_engine_backend/
 
 ## Manual Setup Required
 
