@@ -5,9 +5,12 @@
 
 [![Deploy](https://github.com/djensenius/search-backend/actions/workflows/main_dachshund-api.yml/badge.svg)](https://github.com/djensenius/search-backend/actions/workflows/main_dachshund-api.yml)
 
-# Search Engine Backend
+# 🐕 Dachshund.dev Search Engine Backend
 
 A search engine backend built in Rust that uses Azure Cognitive Search and CosmosDB for indexing and storing web content. This application can crawl websites, index their content, and provide search capabilities.
+
+See [search-frontend](https://github.com/djensenius/search-frontend) for the rest of the project.
+
 
 ## Features
 
